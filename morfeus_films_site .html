@@ -54,6 +54,25 @@
 <footer>
     <p>&copy; 2025 Morfeus Films. Tous droits réservés.</p>
 </footer>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDq30mA9QOx0p5_Xe_ZxFepCcgMSp8uHnc",
+    authDomain: "chiefartcinema.firebaseapp.com",
+    projectId: "chiefartcinema",
+    storageBucket: "chiefartcinema.appspot.com",
+    messagingSenderId: "529393442759",
+    appId: "1:529393442759:web:b337894f414bbbbe73c3e2",
+    measurementId: "G-CQXK8CNHW0"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
